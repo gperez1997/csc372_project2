@@ -1,0 +1,20 @@
+~Loops errors~
+
+~Does not have brackets for condition~
+while (i < 10):
+    out("Yes")$
+    i += 2$
+;
+
+~Missing colon at the end of if-statement~
+while {i < 10}
+    out("Yes")$
+    i += 2$
+;
+
+
+~Conditional operations is not valid~
+while {i || 10}:
+    out("Yes")$
+    i += 2$
+;

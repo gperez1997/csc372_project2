@@ -1,0 +1,13 @@
+~Acceptable~
+
+~Print~
+~word operation~
+out("5")$
+out("hello")$
+out("5" + "hello")$
+
+word a = "hello"$
+word b = "5"$
+out(a)$
+out(b)$
+out(a + b)$

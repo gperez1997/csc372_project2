@@ -1,0 +1,16 @@
+~if-statements error~
+
+~Does not have brackets for condition~
+if (5 < 10) then:
+    out("Yes")$
+;
+
+~Missing colon at the end of if-statement~
+if {5 < 10} then
+    out("Yes")$
+;
+
+~Missing then at the end of condition~
+if {5 < 10}:
+    out("Yes")$
+;

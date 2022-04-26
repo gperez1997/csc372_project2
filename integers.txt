@@ -1,0 +1,20 @@
+~Int operation~
+out(5)$
+out(5 + 5)$
+out(5 - 5)$
+out(5 * 5)$
+out(5 / 5)$
+out(5 % 5)$
+out(5 = 5)$
+out(5 < 1)$
+out(5 > 1)$
+
+int c = 5$
+int d = 5 + 5$
+out(c)$
+out(d)$
+out(c + d)$
+out(c - d)$
+out(c * d)$
+out(c / d)$
+out(c % d)$

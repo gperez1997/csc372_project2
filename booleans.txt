@@ -1,0 +1,14 @@
+~Bool operation~
+out(True)$
+out(False)$
+out(notTrue)$
+out(notFalse)$
+out(True @ False)$
+out(True ^ False)$
+
+bool e = True$
+bool f = notTrue$
+out(e)$
+out(f)$
+out(e @ f)$
+out(e ^ f)$

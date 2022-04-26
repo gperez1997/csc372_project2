@@ -1,0 +1,19 @@
+~Syntactic errors~
+~You can do one at a time by commenating the ones you don't want to test~
+
+~Program will stop as soon as one error is found~
+~So any subsequent lines won't be checked~
+~Comments are done with the tilda character~
+
+~Can't have type name as variable name~
+int int = 1$
+
+~Missing end line character($)~
+int two = 3
+
+~Can't have 'if' or 'while' as variable name~
+word if = "together"$
+word while = "movement"$
+
+~Can't have 'not' as the variable name~
+bool not = False$

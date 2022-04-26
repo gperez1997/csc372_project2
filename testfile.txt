@@ -1,0 +1,52 @@
+~Assigning types~
+int a = 10$
+int b = 5$
+word c = "Hello"$
+word d = "5"$
+bool t = True$
+bool f = False$
+
+~Assign to different variable~
+int new = a$
+word other = c$
+bool again = t$
+
+~Assign to an expression~
+int oper = 5 / b$
+word more = d + c$
+bool next = -5 <= 5$
+
+~Reassign to a different value~
+new = b$
+
+~Printing out~
+out("Hello")$
+out(b)$
+
+~If-statments and nested~
+if not{1 = 1} then:
+    out("True")$
+;
+
+if not{new > oper} then:
+    if {next} then:
+        out("Yes")$
+    ;
+    out("Here")$
+;
+
+~Looping and nested~
+int count = 0$
+while {5 > count}:
+    out(count)$
+    count += 1$
+;
+
+int restart = 1$
+while {15 > restart}:
+    while {restart < 5}:
+        out(restart)$
+        restart += 1$
+    ;
+    restart += 1$
+;

@@ -1,0 +1,56 @@
+~Program 1: Check if prime number~
+
+int number = 17$
+int i = 2$
+word message = number + "is not a prime number"$
+bool isPrime = True$
+
+while {i < (number / 2)}:
+    if {number % i = 0} then:
+        isPrime = False$
+    ;
+    i += 1$
+;
+if {isPrime} then:
+   out(message)$
+; 
+if {isPrime = False} then:
+   out(message)$
+;
+
+~Program 2: Print factorial of number~
+
+int number = 6$
+int i = 1$
+int factorial = 1$
+
+while {i < number + 1}:
+    factorial *= i$
+    i += 1$
+;
+out("The factorial of", number, "is", factorial)$
+
+~Program 3: Find largest of 5 numbers~
+
+int a = 22$
+int b = 133$
+int c = 13$
+int d = 223$
+int e = 47$
+
+int max = a$
+
+if {max < b} then:
+	max = b$
+;
+if {max < c} then:
+	max = c$
+;
+if {max < d} then:
+	max = d$
+;
+if {max < e} then:
+	max = e$
+;
+
+out("The largest of the 5 numbers is", max)$

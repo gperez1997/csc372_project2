@@ -1,0 +1,3 @@
+int num = cmd.args[1]$
+int secNum = cmd.args[2]$
+out(int(num) + int(secNum))$
